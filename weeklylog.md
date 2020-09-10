@@ -1,7 +1,8 @@
+---
 layout: page
 title: "Weekly Logs"
 permalink: /weeklylogs/
-
+---
 ## Weekly Logs
 
 Here is where you can find our weekly logs
