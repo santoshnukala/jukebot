@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Weekly Logs"
+theme: jekyll-theme-cayman
 permalink: /weeklylogs/
 ---
 ## Weekly Logs
