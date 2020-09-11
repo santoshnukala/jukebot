@@ -3,6 +3,7 @@ layout: default
 title: "Weekly Logs"
 permalink: /weeklylogs/
 ---
+[Back to Homepage](https://santoshnukala.github.io/jukebot/)
 ## Weekly Logs
 
 Here is where you can find our weekly logs
