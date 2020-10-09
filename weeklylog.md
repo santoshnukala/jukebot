@@ -28,10 +28,13 @@ Team roles for this week (write down name):
 
 Describe briefly what the main goal of your team is (so the peer reviewer has some
 context).
-- The overarching goal of our project is to have a neural network which will output
-midi files corresponding to the retro mario music midi files that are inputted.  
-Specifically over these two weeks, we focused on how to analyze midi files and get 
-them into a suitable format for the neural network.  
+- The overarching goal of our project is to have a neural network that will 
+output midi files corresponding to the retro Mario music midi files that are inputted.  
+Specifically, over these two weeks, we focused on how to analyze midi files and get them 
+into a suitable format for the neural network.  As of Friday, October 9th, we have 
+implemented an LSTM (Long Short-Term Memory) neural network and have tested it on ideal,
+one instrument piano data.  We have attached the midi file outputted by our neural network 
+which you can download and play.  
 
 I. What was done this week regarding the project: If you want to include code include
 this in the Appendix. Describe what the group did (including contributions of individual
@@ -39,32 +42,35 @@ team members) with regards to the group project this week. Give enough details s
 understand what you folks have been doing over the week. Include dates of your
 meeting(s) and who met on these days.
 
-- Prior to these last two weeks, we intended to use a midi to CSV file converter to work
-with the songs as CSV files since we thought this would be easier.  On Wednesday September 
+- Before these last two weeks, we intended to use a midi-to-CSV file converter to work 
+with the songs as CSV files since we thought this would be easier.  On Wednesday, September
 30th, all of us met for about 90 minutes to discuss what we found after trying to convert 
-midi files to CSV.  We all had trouble converting the files, and we also thought it would be 
-bad if our neural network outputted CSV files which we were unable to convert back into the 
-midi format.We then decided to work on analyzing midi files in their original format.  
-On Saturday October 3rd, we met up again to discuss our progress on analyzing midi files.  
+midi files to CSV.  We all had trouble converting the files, and we also thought it would 
+be bad if our neural network outputted CSV files which we were unable to convert back into 
+the midi format.  We then decided to work on analyzing midi files in their original format.  
+On Saturday, October 3rd, we met up again to discuss our progress on analyzing midi files.  
 Sahith found a tutorial in which someone was parsing midi files to be inputted into a neural 
-network so we decided it would be best if we could each implement this and understand the 
-tutorial fully.  This way we could have a good framework for our own implementation.  
-On Friday October 9th, we have tested our LSTM neural network on simple songs which have
-only one instrument and generated a test output midi file. Our goal is to test our neural network on 
-Mario music and see how our network reacts to it. 
+network so we decided it would be best if we could each implement this and understand the tutorial 
+fully.  This way we could have a good framework for our implementation.  On Friday, October 9th, 
+we met up and confirmed that we have a working LSTM neural network which produced a midi file 
+given ideal training data (one instrument piano songs). Our goal is to test our neural network
+on more complicated music (specifically various combinations of Mario music) to see how it 
+performs and where the shortcomings are.
 
 II. What were obstacles faced if any in working on the project? This could be technical
 (like not being able to implement or understand particular techniques) or time issues
 (midterms for other courses etc).
 
 - As we progress we are realizing the complexities and nuances of this project and it 
-takes a lot of time to understand each step of the process.  For example, the 
-aforementioned tutorial we implemented used a LSTM (Long Short-Term Memory) neural network. 
-We have not covered neural networks yet so there is a lot of individual research that needs
-to be done, and we hope that we can get a better understanding by discussing the tutorial 
-as a group on October 10th.  Lots of our group members had midterms early in the week of
-Monday October 5th so it was difficult for us to find a time to meet and discuss what we 
-have implemented so far.    
+takes a lot of time to understand each step of the process.  For example, the aforementioned
+tutorial we implemented used an LSTM neural network.  We have not covered neural networks yet
+so there is a lot of individual research that needs to be done, and we hope that we can get a
+better understanding by discussing the tutorial as a group on October 10th.  Lots of our group
+members had midterms early in the week of Monday, October 5th so it was difficult for us to find
+a time to meet and discuss what we have implemented so far.  After our meeting on Friday, October
+9th we realized it takes a long time for the LSTM neural network to be trained (running it on a
+full dataset would take 12 hours).  We will most likely have to stop training early when we work
+on it during the day to find the optimal combination of songs and have it run overnight.   
 
 
 III. What is the plan for the next week including what each team member is planning
@@ -72,11 +78,17 @@ to work on in the next week. Describe goals and potential timelines (“ I plan 
 finish understanding x to see if it can be implemented for our project by
 Wednesday etc”. )
 
-- By the next weekly log, we want test our LSMT neural network using a few mario songs.
-For this, we need to essentially understand how neural networks work and how they will work 
-for our particular use case. To achieve this, we are planning on meeting twice every week. 
-Once we have this done, we can go on to the next steps of processing multiple songs using 
-our neural network and proceed from there.
+- By the next weekly log, we want to improve our neural network to work for complex Mario
+songs with multiple instruments (or use techniques to simplify the songs so they work with
+our neural network).   For this, we need to improve our understanding of neural networks
+and understand each result for each case. To achieve this, we are planning on meeting twice
+every week. We plan on meeting Sunday, October 11th.  Prior to this meeting, Krithik and
+Santosh will have tried different combinations of Mario songs with our LSTM neural network 
+to see which songs give ideal outputs and how we need to improve our neural network.  
+Anand is going to study LSTM neural networks to better understand potential shortcomings 
+from training the neural network with more complex songs.  Omkar’s internet is out due to a 
+Spectrum outage and Sahith is busy preparing for a job interview, so we plan to update 
+everyone by the next meeting on Sunday, October 11th.  
 
 ```
 
