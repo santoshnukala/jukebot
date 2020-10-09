@@ -55,7 +55,7 @@ fully.  This way we could have a good framework for our implementation.  On Frid
 we met up and confirmed that we have a working LSTM neural network which produced a midi file 
 given ideal training data (one instrument piano songs). Our goal is to test our neural network
 on more complicated music (specifically various combinations of Mario music) to see how it 
-performs and where the shortcomings are.
+performs and where the shortcomings are. [Here is the link to our test midi file](https://drive.google.com/file/d/1S6EOSqMO5RBsU8qi0gCpO3vosVbunZE6/view?usp=sharing). The midi file needs to be downloaded to be played. In the future, we plan to upload our files to YouTube.
 
 II. What were obstacles faced if any in working on the project? This could be technical
 (like not being able to implement or understand particular techniques) or time issues
