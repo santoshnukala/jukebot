@@ -8,6 +8,78 @@ permalink: /weeklylogs/
 
 Here is where you can find our weekly logs
 
+### Week 5 Summary 
+
+```markdown
+Team name:
+Jukebot
+Team members:
+Krithik Chitla, Sahith Desham, Santosh Nukala, Omkar Apte, Anand Hande
+Date:
+10-09-2020
+
+Team roles for this week (write down name):
+- Facilitator(s): Anand Hande
+- Recorder(s): Anand Hande
+- Deliverer(s): Santosh Nukala
+- Planner(s): Sahith Desham
+- Team Contact: Omkar Apte
+
+
+Describe briefly what the main goal of your team is (so the peer reviewer has some
+context).
+- The overarching goal of our project is to have a neural network which will output
+midi files corresponding to the retro mario music midi files that are inputted.  
+Specifically over these two weeks, we focused on how to analyze midi files and get 
+them into a suitable format for the neural network.  
+
+I. What was done this week regarding the project: If you want to include code include
+this in the Appendix. Describe what the group did (including contributions of individual
+team members) with regards to the group project this week. Give enough details so I
+understand what you folks have been doing over the week. Include dates of your
+meeting(s) and who met on these days.
+
+- Prior to these last two weeks, we intended to use a midi to CSV file converter to work
+with the songs as CSV files since we thought this would be easier.  On Wednesday September 
+30th, all of us met for about 90 minutes to discuss what we found after trying to convert 
+midi files to CSV.  We all had trouble converting the files, and we also thought it would be 
+bad if our neural network outputted CSV files which we were unable to convert back into the 
+midi format.We then decided to work on analyzing midi files in their original format.  
+On Saturday October 3rd, we met up again to discuss our progress on analyzing midi files.  
+Sahith found a tutorial in which someone was parsing midi files to be inputted into a neural 
+network so we decided it would be best if we could each implement this and understand the 
+tutorial fully.  This way we could have a good framework for our own implementation.  
+We are meeting on Friday October 9th to discuss the next step now that we understand how 
+to structure the midi files for this project.  
+
+II. What were obstacles faced if any in working on the project? This could be technical
+(like not being able to implement or understand particular techniques) or time issues
+(midterms for other courses etc).
+
+- As we progress we are realizing the complexities and nuances of this project and it 
+takes a lot of time to understand each step of the process.  For example, the 
+aforementioned tutorial we implemented used a LSTM (Long Short-Term Memory) neural network. 
+We have not covered neural networks yet so there is a lot of individual research that needs
+to be done, and we hope that we can get a better understanding by discussing the tutorial 
+as a group on October 10th.  Lots of our group members had midterms early in the week of
+Monday October 5th so it was difficult for us to find a time to meet and discuss what we 
+have implemented so far.    
+
+
+III. What is the plan for the next week including what each team member is planning
+to work on in the next week. Describe goals and potential timelines (“ I plan to
+finish understanding x to see if it can be implemented for our project by
+Wednesday etc”. )
+
+- By the next weekly log, we want to write the code to our LSMT neural network, 
+and have at least one song or maybe a few songs processed by it. For this, 
+we need to essentially understand how neural networks work and how they will work 
+for our particular use case. To achieve this, we are planning on meeting twice every week. 
+Once we have this done, we can go on to the next steps of processing multiple songs using 
+our neural network and proceed from there.
+
+```
+
 ### Week 3 Summary 
 
 ```markdown
