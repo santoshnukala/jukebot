@@ -49,8 +49,9 @@ On Saturday October 3rd, we met up again to discuss our progress on analyzing mi
 Sahith found a tutorial in which someone was parsing midi files to be inputted into a neural 
 network so we decided it would be best if we could each implement this and understand the 
 tutorial fully.  This way we could have a good framework for our own implementation.  
-We are meeting on Friday October 9th to discuss the next step now that we understand how 
-to structure the midi files for this project.  
+On Friday October 9th, we have tested our LSTM neural network on simple songs which have
+only one instrument and generated a test output midi file. Our goal is to test our neural network on 
+Mario music and see how our network reacts to it. 
 
 II. What were obstacles faced if any in working on the project? This could be technical
 (like not being able to implement or understand particular techniques) or time issues
@@ -71,9 +72,8 @@ to work on in the next week. Describe goals and potential timelines (“ I plan 
 finish understanding x to see if it can be implemented for our project by
 Wednesday etc”. )
 
-- By the next weekly log, we want to write the code to our LSMT neural network, 
-and have at least one song or maybe a few songs processed by it. For this, 
-we need to essentially understand how neural networks work and how they will work 
+- By the next weekly log, we want test our LSMT neural network using a few mario songs.
+For this, we need to essentially understand how neural networks work and how they will work 
 for our particular use case. To achieve this, we are planning on meeting twice every week. 
 Once we have this done, we can go on to the next steps of processing multiple songs using 
 our neural network and proceed from there.
