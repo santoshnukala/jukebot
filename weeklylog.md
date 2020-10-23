@@ -10,6 +10,7 @@ Here is where you can find our weekly logs
 
 ### Week 7 Summary 
 
+[Here is the link to our generated music on YouTube](https://youtu.be/3TLGdOGuqKg)
 ```markdown
 Team name:
 Jukebot
@@ -133,7 +134,6 @@ our group is experiencing inhibits us from making solid goals a week in advance.
 weekend each group member will update the group on their situation so we can make more 
 concrete plans for these subsequent weeks.     
 ```
-[Here is the link to our generated music on YouTube](https://youtu.be/3TLGdOGuqKg)
 
 ### Week 5 Summary 
 
