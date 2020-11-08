@@ -5,3 +5,5 @@ This is our STOR 565 final project's website and our group consists of Santosh N
 ### *[Here you can find our weekly logs](https://santoshnukala.github.io/jukebot/weeklylogs/)* 
 
 ### *[Here you can find our Project Proposal](https://santoshnukala.github.io/jukebot/proposal/)* 
+
+### *[Here you can find our Final Paper](https://santoshnukala.github.io/jukebot/565_Paper.pdf)* 
