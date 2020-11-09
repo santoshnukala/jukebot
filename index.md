@@ -6,6 +6,6 @@ This is our STOR 565 final project's website and our group consists of Santosh N
 
 ### *[Here you can find our Project Proposal](https://santoshnukala.github.io/jukebot/proposal/)* 
 
-### *[Here you can find our Final Paper](https://santoshnukala.github.io/jukebot/Jukebot_Final_Paper.pdf)* 
+### *[Here you can find our Final Paper](https://santoshnukala.github.io/jukebot/Jukebot_Final_Paper_V2.pdf)* 
 
 ### *[Here you can find our Final Presentation](https://youtu.be/C_iYYHx3YAo)* 
