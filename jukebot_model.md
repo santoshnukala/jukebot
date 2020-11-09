@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Jukebot Model"
+permalink: /jukebot_model/
+---
+[Back to Homepage](https://santoshnukala.github.io/jukebot/)
+## Jukebot Model
+*Member List: Sahith Reddy, Anand Hande, Omkar Apte, Rajeev Rajendran, Santosh Nukala, Krithik Chitla*
 
 The purpose of this notebook is to show how the model was constructed and to describe more concretely how our implementation works.  We started and adapted our model from work done by Tyler Doll:  
 https://towardsdatascience.com/making-music-with-machine-learning-908ff1b57636
